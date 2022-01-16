@@ -46,7 +46,7 @@ function TodoClear(){
 
 function TodoDel(){
     let todos = document.getElementsByName("todo")
-    for(let i=0; i<=todos.length; i++){
+    for(let i=0; i<todos.length; i++){
         todos[i].parentElement.remove()
     }
 }
